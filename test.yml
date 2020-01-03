@@ -1,0 +1,7 @@
+- hosts: localhost
+  tasks:
+  - name: make file
+    file:
+      path: /Users/MatthewMatyus/ansibletest.txt
+      state: touch
+    
